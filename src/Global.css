@@ -1,0 +1,87 @@
+:root {
+ --background: #454545;
+
+ --gray-100: #f2f2f2;
+ --gray-200: #d9d9d9;
+ --gray-300: #808080;
+ --gray-400: #333333;
+ --gray-500: #262626;
+ --gray-600: #1a1a1a;
+ --gray-700: #0d0d0d;
+
+ --purple: #8284fa;
+ --purple-dark: #5e60ce;
+
+ --blue: #4ea8de;
+ --blue-dark: #1e6f9f;
+
+ --danger: #e25858;
+}
+
+body {
+
+    background: #1a1a1a;
+    color: var(--gray-300);
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, b, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+.search-wrapper {
+	display: flex;
+	align-items: center;
+	width: hug(736px);
+	height: hug(54px);
+	justify-content: center;
+	left: calc(50% - 736px/2);
+	margin-top: -50px;
+    line-height: 8px;
+}
+
+.newtask {
+	padding: 8px;
+	
+}

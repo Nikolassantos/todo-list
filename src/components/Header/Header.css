@@ -1,0 +1,21 @@
+.header-wrapper { 
+  background: var(--gray-700); 
+  display:flex; 
+  justify-content: center; 
+  align-items: center;
+  height: 200px; } 
+  
+  .header-wrapper img { 
+    width: 8,6rem; 
+    height: 3,1rem; 
+  }
+
+  .search-wrapper {
+  
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   margin-top: -40px;
+   width: hug(736px);
+   height: hug(54px);
+  }

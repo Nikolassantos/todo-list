@@ -1,0 +1,41 @@
+.task-component-wrapper{
+  width: 620px;
+  background: var(--gray-500);
+  border-radius: 8px;
+  display:flex;
+  align-items: center;
+  padding:19px;
+  justify-content: space-between
+}
+
+.task-component-wrapper button {
+  background:none;
+  border:none
+}
+
+.task-component-container {
+  display:flex;
+  align-items: center;
+}
+
+
+.task-component-open  {
+  margin-left: 15px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--gray-100);
+}
+
+.task-component-wrapper img {
+  cursor:pointer
+} 
+
+.task-complete-text {
+  color: var(--gray-300);
+  text-decoration-line: line-through;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+}
